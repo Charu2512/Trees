@@ -141,7 +141,7 @@ class Solution
     {
        if(root==NULL)
        {
-           root->nextRight=NULL;
+           root=NULL;
        }
        queue<Node*> q;
        q.push(root);
